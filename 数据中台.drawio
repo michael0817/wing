@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-14T23:55:07.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="8Xg1MB-wEIeN7aFPAFLf" version="12.2.6" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-15T00:10:54.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="zd22j9QX8pBpnanbkxHg" version="12.2.6" type="github" pages="4">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="932" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -238,14 +238,14 @@
         <mxCell id="K_XLk1ca43ODohlfoCfL-3" value="实时数据处理领域" style="rounded=1;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
           <mxGeometry x="130" y="20" width="510" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="K_XLk1ca43ODohlfoCfL-4" value="数据源配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
+        <mxCell id="K_XLk1ca43ODohlfoCfL-4" value="数据源映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
           <mxGeometry x="150" y="180" width="100" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="K_XLk1ca43ODohlfoCfL-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;数据接入子域&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
+        <mxCell id="K_XLk1ca43ODohlfoCfL-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;数据子域&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
           <mxGeometry x="140" y="100" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="K_XLk1ca43ODohlfoCfL-6" value="数据对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
-          <mxGeometry x="150" y="285" width="100" height="30" as="geometry"/>
+          <mxGeometry x="150" y="255" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="K_XLk1ca43ODohlfoCfL-7" value="&lt;span style=&quot;white-space: normal&quot;&gt;数据处理子域&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="K_XLk1ca43ODohlfoCfL-1" vertex="1">
           <mxGeometry x="320" y="100" width="120" height="60" as="geometry"/>
@@ -269,7 +269,7 @@
           <mxGeometry x="330" y="217.5" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="g0yb1EStglz2yf5GwQpA-0" value="数据格式化&lt;br&gt;数据清洗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K_XLk1ca43ODohlfoCfL-1">
-          <mxGeometry x="150" y="245" width="100" height="30" as="geometry"/>
+          <mxGeometry x="150" y="217.5" width="100" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -279,6 +279,27 @@
       <root>
         <mxCell id="Sm6wDZHAmXWlNj7RumEk-0"/>
         <mxCell id="Sm6wDZHAmXWlNj7RumEk-1" parent="Sm6wDZHAmXWlNj7RumEk-0"/>
+        <mxCell id="xm51TeOPicrfB7E0WJey-0" value="设置输入变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="50" y="80" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-2" value="判断条件1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="50" y="160" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-3" value="执行操作1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="50" y="240" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-4" value="判断条件2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="150" y="160" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-5" value="执行操作2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="150" y="240" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-6" value="判断条件N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="250" y="160" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6C5OWczg_sf_DhOtf-9l-7" value="执行操作N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6wDZHAmXWlNj7RumEk-1">
+          <mxGeometry x="250" y="240" width="80" height="60" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

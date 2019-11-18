@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-18T07:09:31.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="dFIIng3whaNgO5gSAeo0" version="12.2.6" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-18T07:10:43.164Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="1UCa5fNz2kwUZ5SrKoU-" version="12.2.6" type="github" pages="6">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="932" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -542,7 +542,7 @@
         </mxCell>
         <mxCell id="vEiz-pOEBtRRmHUMgK-7-11" value="领域A" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="vEiz-pOEBtRRmHUMgK-7-10">
           <mxGeometry x="0.2353" y="1" relative="1" as="geometry">
-            <mxPoint as="offset"/>
+            <mxPoint x="8" y="-1" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vEiz-pOEBtRRmHUMgK-7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vEiz-pOEBtRRmHUMgK-7-1" source="vEiz-pOEBtRRmHUMgK-7-13">
@@ -610,6 +610,18 @@
         </mxCell>
         <mxCell id="dU9a7zjHFkm0DqAKNDQi-2" value="事件输出" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="vEiz-pOEBtRRmHUMgK-7-1">
           <mxGeometry x="430" y="710" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="2blAbT0xzpkef9mreaz2-0" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="vEiz-pOEBtRRmHUMgK-7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="780" as="sourcePoint"/>
+            <mxPoint x="650" y="60" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2blAbT0xzpkef9mreaz2-1" value="实时数据总线ccie-consumer" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="vEiz-pOEBtRRmHUMgK-7-1">
+          <mxGeometry x="219" y="45" width="170" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2blAbT0xzpkef9mreaz2-2" value="规则引擎ccie-realtime-ws" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="vEiz-pOEBtRRmHUMgK-7-1">
+          <mxGeometry x="670" y="50" width="150" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

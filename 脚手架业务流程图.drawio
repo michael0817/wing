@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-11T05:53:50.944Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="rlzppjgD5m0pRUfsfvW0" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-11T08:48:53.863Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="amLaFYDlKkHRAB_w5Uqy" version="12.6.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1133" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -15,6 +15,11 @@
               <mxPoint x="335" y="200"/>
               <mxPoint x="335" y="570"/>
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-70" value="同步接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-54">
+          <mxGeometry x="-0.3486" relative="1" as="geometry">
+            <mxPoint y="-9.17" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="事件中心" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -32,7 +37,7 @@
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="77e6c97f196da883-1" source="77e6c97f196da883-8" target="77e6c97f196da883-11" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="iI2FmbBAY16OOEgHfnBO-25" value="正常发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="77e6c97f196da883-26">
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-25" value="异步推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="77e6c97f196da883-26">
           <mxGeometry x="-0.1238" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
@@ -143,6 +148,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-71" value="异步推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-21">
+          <mxGeometry x="-0.1972" y="3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iI2FmbBAY16OOEgHfnBO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-3" target="iI2FmbBAY16OOEgHfnBO-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -151,6 +161,11 @@
               <mxPoint x="490" y="330"/>
               <mxPoint x="490" y="125"/>
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-75" value="异步推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-22">
+          <mxGeometry x="-0.3652" relative="1" as="geometry">
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <object label="" id="iI2FmbBAY16OOEgHfnBO-23">
@@ -165,7 +180,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="iI2FmbBAY16OOEgHfnBO-24" value="补发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-23">
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-24" value="补推" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-23">
           <mxGeometry x="-0.4337" y="3" relative="1" as="geometry">
             <mxPoint x="123" y="-40.03" as="offset"/>
           </mxGeometry>
@@ -178,6 +193,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-76" value="异步推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-26">
+          <mxGeometry x="-0.3014" y="3" relative="1" as="geometry">
+            <mxPoint x="-2" y="14.17" as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iI2FmbBAY16OOEgHfnBO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-1" target="77e6c97f196da883-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -186,7 +206,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iI2FmbBAY16OOEgHfnBO-30" value="人工发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-29">
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-30" value="人工推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-29">
           <mxGeometry x="-0.2522" y="3" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
@@ -206,6 +226,11 @@
         <mxCell id="iI2FmbBAY16OOEgHfnBO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-31" target="iI2FmbBAY16OOEgHfnBO-36">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-67" value="同步接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-50">
+          <mxGeometry x="-0.8948" relative="1" as="geometry">
+            <mxPoint x="6.89" as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iI2FmbBAY16OOEgHfnBO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-13" target="iI2FmbBAY16OOEgHfnBO-51">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="210" as="sourcePoint"/>
@@ -216,12 +241,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-68" value="同步接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-55">
+          <mxGeometry x="-0.8072" y="-36" relative="1" as="geometry">
+            <mxPoint x="39" y="36" as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iI2FmbBAY16OOEgHfnBO-64" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;" edge="1" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-2" target="iI2FmbBAY16OOEgHfnBO-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="175" y="530"/>
               <mxPoint x="395" y="585"/>
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iI2FmbBAY16OOEgHfnBO-69" value="同步接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" vertex="1" connectable="0" parent="iI2FmbBAY16OOEgHfnBO-64">
+          <mxGeometry x="-0.5114" relative="1" as="geometry">
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
       </root>

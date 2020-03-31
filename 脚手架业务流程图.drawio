@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T05:17:22.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="8Ru_X2qX2tRVkXUwb9Ag" version="12.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T05:17:35.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="NtoevhabQJsrfv3ndhsq" version="12.9.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1186" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -204,11 +204,6 @@
               <mxPoint x="815" y="110" />
               <mxPoint x="815" y="220" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iI2FmbBAY16OOEgHfnBO-67" value="同步接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=8;fontFamily=Verdana;" parent="iI2FmbBAY16OOEgHfnBO-50" vertex="1" connectable="0">
-          <mxGeometry x="-0.8948" relative="1" as="geometry">
-            <mxPoint x="6.89" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iI2FmbBAY16OOEgHfnBO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="iI2FmbBAY16OOEgHfnBO-60" target="iI2FmbBAY16OOEgHfnBO-66" edge="1">
